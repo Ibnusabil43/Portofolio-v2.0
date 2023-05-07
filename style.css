@@ -89,11 +89,14 @@
 /*Contact*/
 #Contact{
   background-color: #131212;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 /* footer */
 footer {
-  background-color: #2b2b2b;
+  background-color: #050505;
+  justify-content: center;
 }
 section {
   padding-top: 7rem;
