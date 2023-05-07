@@ -1,0 +1,72 @@
+@media (min-width: 1200px) {
+  .responsive-font-example {
+    font-size: 80px;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .responsive-font-example {
+    font-size: 30px;
+  }
+}
+
+/* Jumbotron */
+#carousel {
+  padding-top: 0rem;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+#carousel .c-item {
+  height: 1000px;
+}
+
+#carousel .c-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+
+/* Navbar */
+.navbar {
+  transition: all 0.2s;
+}
+
+.nav-color {
+  background-color: #2b2b2b;
+  box-shadow: 0 3px 10px #2b2b2b15;
+}
+
+#about {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #fff;
+}
+
+/* Activities */
+#Activities {
+  background-color: #e0e0e0;
+}
+
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+#experience {
+  height: 1000px;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+/* footer */
+footer {
+  background-color: #2b2b2b;
+}
+section {
+  padding-top: 7rem;
+}
