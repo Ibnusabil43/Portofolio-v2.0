@@ -57,10 +57,34 @@
   transform: scale(1.04);
 }
 
+/*card Carousel*/
+#slider {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  height: 1000px;
+  background-color: #fff;
+}
+.slider-card {
+  transition: all 0.3s;
+}
+
+.slider-card:hover {
+  transform: scale(1.02);
+}
+
+.slider{
+  padding top:50rem;
+}
+
+/*Timeline*/
 #experience {
   height: 1000px;
   padding-top: 4rem;
   padding-bottom: 5rem;
+}
+
+#experience .card{
+  background-color: transparent;
 }
 
 /* footer */

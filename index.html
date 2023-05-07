@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portofolio | Zaidan Ibnusabil</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body id="home">
     <!--Font Style-->
@@ -16,6 +18,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
     <link rel="stylesheet" href="Experience/style.css" />
+    <link rel="stylesheet" type="text/css" href="Card Slider/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="Card Slider/css/owl.carousel.min.css" />
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -33,10 +37,10 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Activities">Activities</a>
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
+              <a class="nav-link" href="#slider">Activities</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Contact">Contact</a>
@@ -78,7 +82,7 @@
           <div class="col-md-3 justify-content-end align-self-center text-start">
           </div>
           <div class="col-md-4 justify-content-end align-self-center text-start">
-            <h2>About Me</h2>
+            <h1 class="text-dark"><b>About Me</b></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius debitis assumenda eligendi nostrum nemo, hic id? Nam, blanditiis et. Consequuntur aliquam similique minima blanditiis error!</p>
           </div>
         </div>
@@ -86,73 +90,23 @@
     </section>
     <!--Akhir About-->
 
-    <!--Activities-->
-    <section id="Activities">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col">
-            <h2>Activities</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="Activities/1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="Activities/2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="Activities/3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="Activities/4.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Activities-->
-
-  <!-- Experience -->
+ <!-- Experience -->
   <!-- CSS -->
-  <section id="experience">
+  <section id="experience" style="background-color: rgb(19, 18, 18);">
     <div class="container py-5">
-      <div class="row text-center text-dark">
+      <div class="row text-center">
         <div class="col">
-          <h2>Experience</h2>
+          <h1 class="text-white"><b>Experience</b></h1>
         </div>
       </div>
-      <div class="main-timeline">
+      <div class="main-timeline text-white">
         <div class="timeline right">
           <div class="card">
             <div class="card-body">
               <h3>2019</h3>
               <p class="mb-0">
                 - Ketua Divisi Komputer/Informatika KIR SMALZHA<br>
-                - Peserta pelatihan OSN</p>
+                - Peserta pelatihan OSN</>
             </div>
           </div>
         </div>
@@ -185,12 +139,61 @@
   </section>
   <!-- Experience -->
 
+    <!--Activities-->
+    <section id="slider">
+      <div class="container">
+        <h1 class="text-center text-dark"><b>Activities</b></h1>
+        <div class="slider">
+          <div class="owl-carousel">
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Card Slider/images/slide-1.jpg" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>HTML CSS3 Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Card Slider/images/slide-2.jpg" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Wordpress Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Card Slider/images/slide-3.jpg" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>PHP MySQL Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Card Slider/images/slide-4.jpg" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Javascript Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="Card Slider/images/slide-5.jpg" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Bootstrap Tutorials</b></h5>
+              <p class="text-center p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Activities-->
+
+ 
+
     <!--Contact-->
     <section id="Contact">
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h1 class="text-dark"><b>Contact Me</b></h1>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -229,6 +232,12 @@
     </footer>
     <!--Akhir Footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="Card Slider/js/owl.carousel.min.js"></script>
+    <script src="Card Slider/js/script.js"></script>
+
   </body>
 </html>
